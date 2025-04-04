@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "193816022772",
+    "project_id": "fyp-gng-3d3cb",
+    "storage_bucket": "fyp-gng-3d3cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193816022772:android:569ef0b9b22cad9a6158a1",
+        "android_client_info": {
+          "package_name": "com.example.fyp_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk6tlZ--gzfmEFkeGBL0teaOhS6gZts28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193816022772:android:31e14c8c454bfbd36158a1",
+        "android_client_info": {
+          "package_name": "com.fyp.gng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk6tlZ--gzfmEFkeGBL0teaOhS6gZts28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+name: fyp_project
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning for the project
+version: 1.0.0+1
+
+# Flutter and Dart SDK version compatibility
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+# Dependencies for the project
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core dependencies
+  geolocator: ^9.0.2            # Location service
+  flutter_stripe: ^9.5.0+1      # Payment Integration
+  http: ^1.2.2                  # HTTP requests
+  shared_preferences: ^2.2.2    # Shared Preferences for local storage
+  cupertino_icons: ^1.0.8       # iOS-style icons
+  google_maps_flutter: ^2.7.0   # Google Maps
+  url_launcher: ^6.1.7          # URL Launcher
+  permission_handler: ^11.3.1   # Permission handling
+  firebase_core: ^3.12.1        # Firebase Core
+  firebase_auth: ^5.5.1         # Firebase Authentication
+  cloud_firestore: ^5.6.5       # Cloud Firestore 
+  firebase_storage: ^12.4.4     # Firebase Storage
+  firebase_messaging: ^15.2.4   # Firebase Cloud Messaging
+  intl: ^0.20.2                 # Internationalization and localization
+  provider: ^6.1.1              # State Management
+  google_sign_in: ^6.2.2 
+  google_sign_in_web: ^0.12.4+3
+  flutter_facebook_auth: ^7.1.1
+  font_awesome_flutter: ^10.8.0
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+  smooth_page_indicator: ^1.2.1
+  fl_chart: ^0.66.0
+  share_plus: ^10.1.4
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  percent_indicator: ^4.2.4
+  geocoding: ^3.0.0
+  flutter_map_marker_popup: ^7.0.0
+  flutter_plugin_android_lifecycle: 2.0.15
+  
+
+dependency_overrides:
+  flutter_plugin_android_lifecycle: ^2.0.20   # Fix for Android lifecycle issues
+
+# Dev dependencies for testing, linting, etc.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0         # Recommended lints for good coding practices
+
+# Flutter-specific settings
+flutter:
+  uses-material-design: true    # Enable Material Icons
+  assets:
+    - assets/images/             # Image asset
